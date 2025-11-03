@@ -23,7 +23,7 @@ t_group::t_group()
 
 t_group& t_group::operator=(const t_group &a)
 {
-	group = a.group;
+	group1 = a.group;
 	nBypassUserLimit = a.nBypassUserLimit;
 	nUserLimit = a.nUserLimit;
 	nIpLimit = a.nIpLimit;
